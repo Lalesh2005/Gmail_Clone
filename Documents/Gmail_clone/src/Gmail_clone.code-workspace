@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Gmail_clone",
+			"path": ".."
+		},
+		{
+			"name": "svgs",
+			"path": "../../../Downloads/Gmail Clone 2/svgs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Gmail_clone"
+	}
+}

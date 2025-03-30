@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+<div class="flex">
+    <div class="h-screen w-[80px] bg-[rgb(235,241,250)]">
+        <!-- Side bar of page -->
+        <div class="">
+            <!-- Menu Icon -->
+            <ul >
+                <img class="h-[30px] w-[30px] ml-5 mt-4" 
+                     src="https://cdn-icons-png.flaticon.com/128/2976/2976215.png" alt="menu">
+            </ul>
+
+            
+            <ul  class=" h-[70px] w-[70px] cursor-pointer  rounded-full transition-all duration-200 ease-in-out bg-[rgb(214,226,251)] flex-col justify-center justify-items-center items-center  ">
+                <img class="h-[30px] w-[30px] ml-5 mt-10  bg-[#d3e3fd]" src="icons_png/icon_2.png" alt="mail">
+                <p class=" ml-5 font-bold">Mail</p>
+            </ul>
+            <ul>
+                <img class="h-[30px] w-[30px] ml-5 mt-10  bg-[#d3e3fd]" src="icons_png/icon_3.png" alt="">
+                <p class="ml-5 font-bold">Chat</p>
+            </ul>
+            <ul>
+                <img class="h-[30px] w-[30px] ml-5 mt-10  bg-[#d3e3fd]" src="icons_png/icon_4.png" alt="">
+                <p class="ml-5 font-bold">Spaces</p>
+            </ul>
+            <ul>
+                <img class="h-[30px] w-[30px] ml-5 mt-10  bg-[#d3e3fd]" src="icons_png/icon_5.png" alt="">
+                <p class="ml-5 font-bold">Meet</p>
+            </ul>
+        </div>
+    </div>
+    <!--2nd section or compose section-->
+    <div class="h-screen w-[350px] bg-[rgb(246,248,252)]">
+       <div>
+        <img class="h-[50px] ml-[10px] mt-1" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r5.png" alt="">
+       </div>
+       <!--compose box-->
+       <div class="h-[50px] w-[200px] ml-[10px] mt-[20px] rounded-[20px] bg-[rgb(201,230,252)] flex  items-center justify-center gap-4 ">
+            <p>
+                <img class="bg-[rgb(201,230,252)]" src="icons_png/icon_6.png" alt="">
+            </p>
+            <p class="font-bold">Compose</p>
+       </div>
+       <!--contents below compose section-->
+       <div class="mt-3  ">
+            <div class="flex ml-[10px] h-[30px] bg-[rgb(214,226,251)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_7.png" alt="">
+                <p class="font-bold">Inbox</p>
+            </div>
+            <div class="flex ml-[10px] h-[30px] hover:bg-[rgb(229,231,232)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_8.png" alt="">
+                <p class="font-bold">Starred</p>
+            </div>
+            <div class="flex ml-[10px] h-[30px] hover:bg-[rgb(229,231,232)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_9.png" alt="">
+                <p class="font-bold">Snoozed</p>
+            </div>
+            <div class="flex ml-[10px] h-[30px] hover:bg-[rgb(229,231,232)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_10.png" alt="">
+                <p class="font-bold">Sent</p>
+            </div>
+            <div class="flex ml-[10px] h-[30px] hover:bg-[rgb(229,231,232)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_11 (1).png" alt="">
+                <p class="font-bold">Drafts</p>
+            </div>
+            <div class="flex ml-[10px] h-[30px] hover:bg-[rgb(229,231,232)] rounded-[20px] gap-4 items-center mb-1 ">
+                <img class="ml-[40px] h-[25px]" src="icons_png/icon_12.png" alt="">
+                <p class="font-bold">More</p>
+            </div>
+            <!--Labels_section-->
+            <div class="mt-10">
+              <div class="flex justify-between ml-[50px] ">
+                <p class="font-bold">Labels</p>
+                <img class="mr-4" src="icons_png/icon_13.png" alt="plus">
+              </div>
+              <div class="flex gap-4 hover:bg-[rgb(229,231,232)] rounded-full relative group p-2">
+                <img class="ml-[50px]" src="icons_png/icon_14.png" alt="">
+                <p>Scrum</p>
+                <img class="absolute opacity-0 h-[20px] ml-[270px] group-hover:opacity-100 transition-opacity duration-300" 
+                     src="icons_png/icon_24.png" alt="">
+            </div>
+            </div>
+       </div>
+    </div>
+    <!--search and email cotents section-->
+        <div class="h-screen w-[960px] bg-[rgb(246,248,251)]">
+
+        <!--Search in emails section-->
+            <div class="mt-3 ml-1 flex gap-[150px]">
+                <div class="h-[70px] w-[500px] bg-[rgb(235,241,250)] rounded-full flex items-center justify-between"> 
+                    <div class="flex gap-7">
+                        <img class="h-[30px] w-[30px] ml-3" src="icons_png/icon_16.png" alt="">
+                        <p>Search in emails</p>
+                    </div>    
+                    <img class="mr-6" src="icons_png/icon_17.png" alt="">
+                </div>
+                <!--Active box-->
+               <div class="flex justify-between items-center gap-7">
+                <div class="h-[70px] w-[140px] bg-[rgb(235,241,250)] flex items-center rounded-full justify-between">
+                    <p class= "bg-[rgb(60,126,68)] h-[15px] w-[15px] rounded-[50%] ml-2.5"></p>
+                    <p class="font-bold">Active</p>
+                    <img class="mr-3" src="icons_png/icon_12.png" alt="">
+                 </div>
+                 <div>
+                    <img src="icons_png/icon_19.png" alt="QuestionMark">
+                 </div>
+                 <div>
+                    <img src="icons_png/icon_20.png" alt="setting">
+                 </div>
+                 <div>
+                    <img src="icons_png/icon_21.png" alt="wegdige">
+                 </div>
+               </div>
+
+            </div>
+            <!--heading section of primary-->
+            <div class="h-[100px] mt-3 bg-[rgb(255,255,255)] rounded-[10px]">
+                <div class="bg-[rgb(255,255,255)]">
+                    <div class="mt-2 ml-2 flex justify-between">
+                        <div class="flex ml-2 gap-4 mt-2">
+                            <label class="flex items-center  cursor-pointer">
+                                <input type="checkbox" class="w-4 h-4 text-green-600 border-gray-300 rounded focus:ring-green-500">
+                                <img src="icons_png/icon_12.png" alt="">
+                              </label>
+                              <img src="icons_png/icon_23.png" alt="">
+                              <img src="icons_png/icon_24.png" alt="">
+                        </div>
+                          <div class="mt-2 flex items-center gap-2.5">
+                            <p class=" text-[rgba(91,91,91)]">
+                                1-50 of 550
+                            </p>
+                            <img src="icons_png/icon_25.png" alt="">
+                            <img src="icons_png/icon_26.png" alt="">
+                            <p class="h-[10px] w-[20px] bg-[rgb(108,114,127)]"></p>
+                            <img class="mr-4" src="icons_png/icon_27.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--Primary promotions updates-->
+                <div class="bg-[rgb(255,255,255)]  flex h-[40px] gap-10 ">
+                    <div class="bg-[rgb(255,255,255)] h-[40px] ">
+                        <div class="flex mt-7 gap-4 ml-3 items-center">
+                            <img class="outline-blue-700" src="icons_png/icon_7.png" alt="inbox">
+                            <p class="text-blue-700 font-bold">Primary</p>
+                        </div>
+                        <div class="w-[200px] h-[5px] bg-blue-800 ml-[5px] mt-[11px] rounded-full "></div>
+                       
+                    </div>
+                    <div class="flex mt-7 gap-4 ml-3 items-center">
+                        <img src="icons_png/icon_29.png" alt="promotions">
+                        <p class="font-bold text-[rgba(91,91,91)]">Promotions</p>
+                    </div>
+                    <div class="flex mt-7 gap-4 ml-3 items-center ">
+                        <img src="icons_png/icon_30.png" alt="updates">
+                        <p class="font-bold  text-[rgba(91,91,91)]">Updates</p>
+                    </div>
+                </div>
+                <!--Email section-->
+                <div class=" bg-[rgb(255,255,255)] h-[621px] mt-7 rounded-[10px] ">
+                    <div class="h-[35px]  bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16 hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                    <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div> <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div> <div class="h-[35px] bg-[rgb(255,255,255)] flex items-center gap-16  hover:bg-gray-300">
+                        <label class="flex items-center space-x-2 cursor-pointer">
+                            <input type="checkbox" class="w-5 h-5 text-green-600 border-gray-300 rounded focus:ring-green-500 ml-2">
+                            <img src="icons_png/icon_36.png" alt="">
+                            <img src="https://ssl.gstatic.com/ui/v1/icons/mail/gm3/2x/label_important_fill_googyellow500_20dp.png" alt="">
+                            <p class="font-bold">iNeuron</p>
+                          </label>
+                          <p class="font-bold">Important mail for 2 step verification cccccccccccccc cccccccccccccc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-screen w-[50px] bg-[rgb(246,248,252)] justify-center">
+            <div class="flex h-[40px] w-[40px] rounded-full bg-[rgb(132,94,238)] mt-7 items-center justify-center ml-[5px]">
+                <p class="font-bold text-3xl text-white">v</p>
+            </div>
+           
+            <div>
+                <img class="ml-[15px] mt-[50px] h-[25px]" src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png" alt="">
+                <img class="ml-[15px] mt-[50px] h-[25px]" src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png" alt="">
+                <img class="ml-[15px] mt-[50px] h-[25px]" src="https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png" alt="">
+                <img class="ml-[15px] mt-[50px] h-[25px]" src="https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png" alt="">
+                <p class="w-[15px] h-[1px] bg-gray-900 ml-[15px] mt-[50px]"></p>
+                <img class="ml-[15px] mt-[50px] h-[25px]" src="https://fonts.gstatic.com/s/i/googlematerialicons/add/v21/black-24dp/1x/gm_add_black_24dp.png" alt="">
+            </div> 
+           
+        </div>
+        
+    </div>
+
+</div>
+</body>
+</html>
